@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<title>Gabriel Schmitt | Developer Experience</title>
+
+<link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+<!-- BACKGROUND -->
+<canvas id="bg"></canvas>
+<div class="glow"></div>
+
+<!-- WHATSAPP -->
+<a class="whatsapp"
+   href="https://api.whatsapp.com/send?phone=5547992421774"
+   target="_blank"
+   rel="noopener noreferrer"
+   aria-label="Falar no WhatsApp">
+
+  <span class="tooltip">Fale comigo</span>
+
+  <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor">
+    <path d="M12 2a10 10 0 0 0-8.94 14.48L2 22l5.7-1.5A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 0 1 7.07 12.3 8.2 8.2 0 0 1-9.62 3.56l-.4-.16-3.38.89.9-3.29-.17-.41A8.2 8.2 0 0 1 12 3.8z"/>
+  </svg>
+
+  <span class="pulse"></span>
+</a>
+
+<!-- NAV -->
+<header class="nav">
+  <button id="hamburger">☰</button>
+  <div class="logo">Gabriel.dev</div>
+
+  <ul id="menu" class="menu">
+    <li><a href="#hero">Início</a></li>
+    <li><a href="#about">Sobre</a></li>
+    <li><a href="#skills">Tecnologias</a></li>
+    <li><a href="#contact">Contato</a></li>
+  </ul>
+</header>
+
+<!-- HERO -->
+<section id="hero" class="panel hero">
+  <h1 class="reveal big">Gabriel Otávio Schmitt.</h1>
+  <p class="reveal subtitle">Dev Front-end / Back-end & Mobile.</p>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="panel">
+  <h2 class="reveal">Sobre mim</h2>
+  <p class="reveal text">
+    Desenvolvedor focado em aplicações modernas, APIs e interfaces performáticas.
+  </p>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="panel">
+  <h2 class="reveal">Tecnologias</h2>
+
+  <div class="grid">
+    <div class="card">HTML</div>
+    <div class="card">CSS</div>
+    <div class="card">JavaScript</div>
+    <div class="card">Python</div>
+    <div class="card">SQL</div>
+    <div class="card">API</div>
+    <div class="card">Dart</div>
+    <div class="card">Flutter</div>
+    <div class="card">Firebase</div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="panel">
+  <h2 class="reveal">Contato</h2>
+
+  <div class="grid reveal">
+
+    <div class="card contact-card">
+      <h3>Email</h3>
+      <span>gabrieloschmitt@gmail.com</span>
+    </div>
+
+    <div class="card contact-card">
+      <h3>Telefone</h3>
+      <span>(47) 99242-1774</span>
+    </div>
+
+    <div class="card contact-card">
+      <h3>Localização</h3>
+      <span>Blumenau - SC</span>
+    </div>
+
+    <a class="card contact-card link" href="https://github.com/" target="_blank">
+      <h3>GitHub</h3>
+      <span>Ver projetos</span>
+    </a>
+
+    <a class="card contact-card link" href="https://linkedin.com/" target="_blank">
+      <h3>LinkedIn</h3>
+      <span>Perfil profissional</span>
+    </a>
+
+    <a class="card contact-card link" href="https://instagram.com/" target="_blank">
+      <h3>Instagram</h3>
+      <span>@perfil</span>
+    </a>
+
+  </div>
+</section>
+
+<footer>
+  © 2026 Gabriel Schmitt
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
