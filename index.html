@@ -1,124 +1,152 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-<title>Gabriel Schmitt | Developer Experience</title>
+  <title>Gabriel Schmitt | Developer Portfolio</title>
 
-<link rel="stylesheet" href="styles.css"/>
+  <link rel="stylesheet" href="styles.css"/>
 </head>
 
 <body>
 
-<!-- BACKGROUND -->
-<canvas id="bg"></canvas>
-<div class="glow"></div>
+  <canvas id="bg"></canvas>
+  <div class="glow"></div>
 
-<!-- WHATSAPP -->
-<a class="whatsapp"
-   href="https://api.whatsapp.com/send?phone=5547992421774"
-   target="_blank"
-   rel="noopener noreferrer"
-   aria-label="Falar no WhatsApp">
+  <a
+    class="whatsapp"
+    href="#"
+    aria-label="Falar comigo"
+  >
+    <span class="tooltip">Fale comigo</span>
 
-  <span class="tooltip">Fale comigo</span>
+    <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor">
+      <path d="M12 2a10 10 0 0 0-8.94 14.48L2 22l5.7-1.5A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 0 1 7.07 12.3 8.2 8.2 0 0 1-9.62 3.56l-.4-.16-3.38.89.9-3.29-.17-.41A8.2 8.2 0 0 1 12 3.8z"/>
+    </svg>
+  </a>
 
-  <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor">
-    <path d="M12 2a10 10 0 0 0-8.94 14.48L2 22l5.7-1.5A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 0 1 7.07 12.3 8.2 8.2 0 0 1-9.62 3.56l-.4-.16-3.38.89.9-3.29-.17-.41A8.2 8.2 0 0 1 12 3.8z"/>
-  </svg>
+  <header class="nav">
+    <button id="hamburger" aria-label="Abrir menu">
+      ☰
+    </button>
 
-  <span class="pulse"></span>
-</a>
+    <div class="logo">Gabriel Otávio Schmitt</div>
 
-<!-- NAV -->
-<header class="nav">
-  <button id="hamburger">☰</button>
-  <div class="logo">Gabriel.dev</div>
+    <ul id="menu" class="menu">
+      <li><a href="#hero">Início</a></li>
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#skills">Tecnologias</a></li>
+      <li><a href="#contact">Contato</a></li>
+    </ul>
+  </header>
 
-  <ul id="menu" class="menu">
-    <li><a href="#hero">Início</a></li>
-    <li><a href="#about">Sobre</a></li>
-    <li><a href="#skills">Tecnologias</a></li>
-    <li><a href="#contact">Contato</a></li>
-  </ul>
-</header>
+  <section id="hero" class="panel">
+    <h1 class="reveal">Desenvolvedor Full Stack Python</h1>
 
-<!-- HERO -->
-<section id="hero" class="panel hero">
-  <h1 class="reveal big">Gabriel Otávio Schmitt.</h1>
-  <p class="reveal subtitle">Dev Front-end / Back-end & Mobile.</p>
-</section>
+    <p class="reveal subtitle">
+      Desenvolvendo aplicações modernas, APIs, banco de dados
+      e experiências web/mobile.
+      Buscando oportunidade como desenvolvedor júnior ou estágio.
+    </p>
+  </section>
 
-<!-- ABOUT -->
-<section id="about" class="panel">
-  <h2 class="reveal">Sobre mim</h2>
-  <p class="reveal text">
-    Desenvolvedor focado em aplicações modernas, APIs e interfaces performáticas.
-  </p>
-</section>
+  <section id="about" class="panel">
+    <h2 class="reveal">Sobre mim</h2>
 
-<!-- SKILLS -->
-<section id="skills" class="panel">
-  <h2 class="reveal">Tecnologias</h2>
+    <p class="reveal text">
+      Atuei na indústria 4.0 com montagem de painéis elétricos
+      e transformadores de força. Atualmente em transição para
+      a área de tecnologia, focado em desenvolvimento full stack,
+      aplicações modernas, APIs e sistemas funcionais.
+    </p>
+  </section>
 
-  <div class="grid">
-    <div class="card">HTML</div>
-    <div class="card">CSS</div>
-    <div class="card">JavaScript</div>
-    <div class="card">Python</div>
-    <div class="card">SQL</div>
-    <div class="card">API</div>
-    <div class="card">Dart</div>
-    <div class="card">Flutter</div>
-    <div class="card">Firebase</div>
+  <section id="skills" class="panel">
+    <h2 class="reveal">Tecnologias</h2>
+
+    <div class="grid reveal">
+      <div class="card">HTML</div>
+      <div class="card">CSS</div>
+      <div class="card">JavaScript</div>
+      <div class="card">Python</div>
+      <div class="card">Inteligência Artificial</div>
+      <div class="card">UX/UI</div>
+      <div class="card">SQL</div>
+      <div class="card">APIs</div>
+      <div class="card">Dart</div>
+      <div class="card">Flutter</div>
+      <div class="card">Firebase</div>
+      <div class="card">Git/GitHub</div>
+    </div>
+  </section>
+
+  <section id="contact" class="panel">
+    <h2 class="reveal">Contato</h2>
+
+    <div class="grid reveal">
+
+      <div class="card contact-card">
+        <h3>Localização</h3>
+        <span>Blumenau - SC</span>
+      </div>
+
+      <a class="card contact-card link"
+         href="https://github.com/GabrielOtavioSchmitt"
+         target="_blank"
+         rel="noopener noreferrer">
+        <h3>GitHub</h3>
+        <span>Projetos e códigos</span>
+      </a>
+
+      <a class="card contact-card link"
+         href="https://www.linkedin.com/in/gabrielotavioschmitt/"
+         target="_blank"
+         rel="noopener noreferrer">
+        <h3>LinkedIn</h3>
+        <span>Perfil profissional</span>
+      </a>
+
+      <a class="card contact-card link"
+         href="https://www.instagram.com/gebe.py/"
+         target="_blank"
+         rel="noopener noreferrer">
+        <h3>Instagram</h3>
+        <span>Contato pessoal</span>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- MODAL -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+
+      <h2>Entrar em contato</h2>
+
+      <!-- ADICIONEI APENAS O ID PARA FUNCIONAR COM JS -->
+      <form id="contactForm" action="https://formsubmit.co/seuemail@gmail.com" method="POST">
+
+        <input type="text" id="name" name="name" placeholder="Seu nome" required>
+        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
+        <input type="text" id="phone" name="phone" placeholder="Seu telefone (opcional)">
+        <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+
+        <input type="hidden" name="_captcha" value="false">
+
+        <button type="submit" class="send-btn">Enviar</button>
+      </form>
+
+      <button id="closeModal" class="close-btn">Fechar</button>
+
+    </div>
   </div>
-</section>
 
-<!-- CONTACT -->
-<section id="contact" class="panel">
-  <h2 class="reveal">Contato</h2>
+  <footer>
+    © 2026 Gabriel Otávio Schmitt - Todos os direitos reservados.
+  </footer>
 
-  <div class="grid reveal">
-
-    <div class="card contact-card">
-      <h3>Email</h3>
-      <span>gabrieloschmitt@gmail.com</span>
-    </div>
-
-    <div class="card contact-card">
-      <h3>Telefone</h3>
-      <span>(47) 99242-1774</span>
-    </div>
-
-    <div class="card contact-card">
-      <h3>Localização</h3>
-      <span>Blumenau - SC</span>
-    </div>
-
-    <a class="card contact-card link" href="https://github.com/GabrielOtavioSchmitt" target="_blank">
-      <h3>GitHub</h3>
-      <span>Ver projetos</span>
-    </a>
-
-    <a class="card contact-card link" href="https://br.linkedin.com/in/gabriel-ot%C3%A1vio-schmitt-8781703b0" target="_blank">
-      <h3>LinkedIn</h3>
-      <span>Perfil profissional</span>
-    </a>
-
-    <a class="card contact-card link" href="https://www.instagram.com/gebe.py/" target="_blank">
-      <h3>Instagram</h3>
-      <span>@perfil</span>
-    </a>
-
-  </div>
-</section>
-
-<footer>
-  © 2026 Gabriel Schmitt
-</footer>
-
-<script src="script.js"></script>
+  <script src="script.js"></script>
 
 </body>
 </html>

@@ -1,65 +1,75 @@
-# Gabriel Otávio Schmitt. — Portfólio Dev
+# 🚀 Portfólio - Gabriel Otávio Schmitt
 
-Este é meu portfólio pessoal como desenvolvedor, criado para apresentar minhas habilidades em front-end e interações web.
+Portfólio pessoal desenvolvido com foco em apresentar minhas habilidades como desenvolvedor Full Stack, projetos e formas de contato profissional.
 
-O projeto foi desenvolvido com foco em simplicidade, performance e uma experiência visual moderna utilizando apenas tecnologias nativas da web.
+---
 
-##  Objetivo:
+## 🌐 Demonstração
 
-O objetivo deste projeto é:
+Projeto com interface moderna, animação em canvas, modal de contato e design responsivo.
 
-- Apresentar minhas habilidades como desenvolvedor front-end
-- Demonstrar domínio de HTML, CSS e JavaScript puro
-- Criar uma interface moderna com animações e interatividade
-- Simular uma experiência de portfólio profissional
-- Mostrar um pouco sobre mim, o que estou estudando
+---
 
-##  Tecnologias utilizadas:
+## 🧠 Sobre o projeto
+
+Este portfólio foi criado para:
+
+- Exibir minhas habilidades técnicas
+- Apresentar projetos e tecnologias
+- Facilitar contato profissional
+- Demonstrar conhecimentos em front-end moderno
+
+---
+
+## 💻 Tecnologias utilizadas
 
 - HTML5
 - CSS3
 - JavaScript (Vanilla)
-- Canvas API (animação de partículas no background)
+- Canvas API (animação de partículas)
+- Design responsivo
+- UI moderna com glassmorphism
 
-##  Funcionalidades:
+---
 
-- Menu lateral (hamburger).
-- Animação de entrada ao rolar a página. (scroll reveal).
-- Background animado com partículas conectadas.
-- Efeito de interação leve com o mouse no background.
-- Cards com efeito 3D no hover.
-- Botão flutuante de contato via WhatsApp.
-- Layout responsivo.
+## ✨ Funcionalidades
 
-##  Estrutura do projeto:
+- 🎨 Animação de fundo com partículas conectadas
+- 📱 Layout totalmente responsivo
+- 📩 Modal de contato interativo
+- 🧭 Menu hamburger mobile
+- ⚡ Navegação suave
+- 💬 Links para redes sociais e GitHub
 
-- Meu Portfólio
-| index.html
-| styles.css
-| script.js
-| .gitignore
+---
 
-##  Como executar:
+## 📂 Estrutura do projeto
 
-Basta abrir o arquivo index.html em qualquer navegador moderno.
-Não é necessário instalação ou dependências.
+porfolio/
+├── index.html
+├── styles.css
+├── script.js
+└── README.md
 
-##  Responsividade:
 
-O projeto foi pensado para funcionar em:
+---
 
-- Desktop.
-- Tablets.
-- Smartphones.
+## 📸 Preview
 
-##  Autor:
+> Adicione aqui um print do seu portfólio depois (opcional)
 
-Gabriel Otávio Schmitt
+---
 
-- GitHub: https://github.com/
-- Email: gabrieloschmitt@gmail.com
+## 📬 Contato
 
-##  Status
+- 📧 Email: gabrielsmteyy@gmail.com  
+- 💼 LinkedIn: linkedin.com/in/gabrielotavioschmitt  
+- 💻 GitHub: github.com/GabrielOtavioSchmitt  
 
-✔ Em aperfeiçoamento. 
-✔ Responsivo.
+---
+
+## 🚀 Como rodar o projeto
+
+1. Clone o repositório:
+```bash
+git clone https://github.com/SEU-USUARIO/SEU-REPO.git

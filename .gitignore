@@ -1,9 +1,35 @@
+# =========================
 # Sistema operacional
+# =========================
 .DS_Store
 Thumbs.db
 
+# =========================
 # Editor (VSCode)
+# =========================
 .vscode/
+*.code-workspace
 
-# Logs (caso existam futuramente)
+# =========================
+# Logs
+# =========================
 *.log
+
+# =========================
+# Dependências (caso futuramente use Node)
+# =========================
+node_modules/
+
+# =========================
+# Build (caso evolua para framework)
+# =========================
+dist/
+build/
+out/
+
+# =========================
+# Variáveis de ambiente
+# =========================
+.env
+.env.local
+.env.production
