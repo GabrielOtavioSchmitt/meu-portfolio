@@ -3,8 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-
-  <title>Gabriel Schmitt | Developer Portfolio</title>
+  <title>Gabriel Schmitt | Portfolio</title>
 
   <link rel="stylesheet" href="styles.css"/>
 </head>
@@ -14,63 +13,50 @@
   <canvas id="bg"></canvas>
   <div class="glow"></div>
 
-  <a
-    class="whatsapp"
-    href="#"
-    aria-label="Falar comigo"
-  >
-    <span class="tooltip">Fale comigo</span>
-
-    <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M12 2a10 10 0 0 0-8.94 14.48L2 22l5.7-1.5A10 10 0 1 0 12 2zm0 1.8a8.2 8.2 0 0 1 7.07 12.3 8.2 8.2 0 0 1-9.62 3.56l-.4-.16-3.38.89.9-3.29-.17-.41A8.2 8.2 0 0 1 12 3.8z"/>
-    </svg>
-  </a>
-
   <header class="nav">
-    <button id="hamburger" aria-label="Abrir menu">
-      ☰
-    </button>
+    <button id="hamburger">☰</button>
 
     <div class="logo">Gabriel Otávio Schmitt</div>
 
-    <ul id="menu" class="menu">
+    <ul id="menu">
       <li><a href="#hero">Início</a></li>
       <li><a href="#about">Sobre</a></li>
       <li><a href="#skills">Tecnologias</a></li>
+      <li><a href="#projects">Projetos</a></li>
       <li><a href="#contact">Contato</a></li>
     </ul>
   </header>
 
   <section id="hero" class="panel">
-    <h1 class="reveal">Desenvolvedor Full Stack Python</h1>
+    <h1>Full Stack Developer.</h1>
+    <p>Python • HTML • CSS • JavaScript • SQL • APIs • Inteligência Artificial • UX/UI • Dart • Flutter • Firebase.
 
-    <p class="reveal subtitle">
-      Desenvolvendo aplicações modernas, APIs, banco de dados
-      e experiências web/mobile.
-      Buscando oportunidade como desenvolvedor júnior ou estágio.
     </p>
   </section>
 
   <section id="about" class="panel">
-    <h2 class="reveal">Sobre mim</h2>
-
-    <p class="reveal text">
-      Atuei na indústria 4.0 com montagem de painéis elétricos
-      e transformadores de força. Atualmente em transição para
-      a área de tecnologia, focado em desenvolvimento full stack,
-      aplicações modernas, APIs e sistemas funcionais.
+    <h2>Sobre mim</h2>
+    <p>
+       Focado em Full Stack Python & IA.
+       Cada vez procurando me atualizar mais e mais, buscando sempre aprender novas tecnologias e me aprofundar nas que já conheço.
+       Formado Back-end em Python.(SENAI LAB365).
+       Formado Front-end em HTML, CSS e JavaScript, UX-UI.(SENAI LAB365).
+       Formado em Inteligência Artificial.(SENAI LAB365).
+       Estudando Desenvolvimento de sistemas Mobile com Dart e Flutter e Firebase.(SENAI LAB365).
+       Estudante de Análise e Desenvolvimento de Sistemas.(Unicesumar).
+       Buscando minha primeira oportunidade na área de tecnologia, onde possa aplicar meus conhecimentos e crescer profissionalmente.
     </p>
   </section>
 
   <section id="skills" class="panel">
-    <h2 class="reveal">Tecnologias</h2>
+    <h2>Tecnologias</h2>
 
-    <div class="grid reveal">
+    <div class="grid">
       <div class="card">HTML</div>
       <div class="card">CSS</div>
       <div class="card">JavaScript</div>
       <div class="card">Python</div>
-      <div class="card">Inteligência Artificial</div>
+      <div class="card">IA</div>
       <div class="card">UX/UI</div>
       <div class="card">SQL</div>
       <div class="card">APIs</div>
@@ -81,69 +67,47 @@
     </div>
   </section>
 
-  <section id="contact" class="panel">
-    <h2 class="reveal">Contato</h2>
+  <section id="projects" class="panel">
+    <h2>Projetos</h2>
 
-    <div class="grid reveal">
+    <div class="project-window">
+      <button class="nav-btn prev">‹</button>
 
-      <div class="card contact-card">
-        <h3>Localização</h3>
-        <span>Blumenau - SC</span>
+      <div class="project-track">
+       <img src="assets/img/projeto1.png">
+       <img src="assets/img/projeto2.png">
+       <img src="assets/img/projeto3.png">
+       <img src="assets/img/projeto4.png">
       </div>
 
-      <a class="card contact-card link"
-         href="https://github.com/GabrielOtavioSchmitt"
-         target="_blank"
-         rel="noopener noreferrer">
-        <h3>GitHub</h3>
-        <span>Projetos e códigos</span>
+      <button class="nav-btn next">›</button>
+    </div>
+
+    <div class="dots"></div>
+  </section>
+
+  <section id="contact" class="panel">
+    <h2>Contato</h2>
+
+    <div class="grid">
+      <div class="card">Localização<br>Blumenau - SC</div>
+
+      <a class="card" href="https://github.com/GabrielOtavioSchmitt" target="_blank">
+        GitHub<br>Projetos
       </a>
 
-      <a class="card contact-card link"
-         href="https://www.linkedin.com/in/gabrielotavioschmitt/"
-         target="_blank"
-         rel="noopener noreferrer">
-        <h3>LinkedIn</h3>
-        <span>Perfil profissional</span>
+      <a class="card" href="https://www.linkedin.com/in/gabrielotavioschmitt/" target="_blank">
+        LinkedIn<br>Perfil
       </a>
 
-      <a class="card contact-card link"
-         href="https://www.instagram.com/gebe.py/"
-         target="_blank"
-         rel="noopener noreferrer">
-        <h3>Instagram</h3>
-        <span>Contato pessoal</span>
+      <a class="card" href="https://www.instagram.com/gebe.py/" target="_blank">
+        Instagram<br>Contato
       </a>
-
     </div>
   </section>
 
-  <!-- MODAL -->
-  <div id="contactModal" class="modal">
-    <div class="modal-content">
-
-      <h2>Entrar em contato</h2>
-
-      <!-- ADICIONEI APENAS O ID PARA FUNCIONAR COM JS -->
-      <form id="contactForm" action="https://formsubmit.co/seuemail@gmail.com" method="POST">
-
-        <input type="text" id="name" name="name" placeholder="Seu nome" required>
-        <input type="email" id="email" name="email" placeholder="Seu e-mail" required>
-        <input type="text" id="phone" name="phone" placeholder="Seu telefone (opcional)">
-        <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
-
-        <input type="hidden" name="_captcha" value="false">
-
-        <button type="submit" class="send-btn">Enviar</button>
-      </form>
-
-      <button id="closeModal" class="close-btn">Fechar</button>
-
-    </div>
-  </div>
-
   <footer>
-    © 2026 Gabriel Otávio Schmitt - Todos os direitos reservados.
+    © 2026 Gabriel Schmitt - Todos os direitos reservados.
   </footer>
 
   <script src="script.js"></script>

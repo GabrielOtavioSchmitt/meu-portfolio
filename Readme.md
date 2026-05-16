@@ -1,75 +1,85 @@
-# 🚀 Portfólio - Gabriel Otávio Schmitt
+# Portfólio - Gabriel Schmitt
 
-Portfólio pessoal desenvolvido com foco em apresentar minhas habilidades como desenvolvedor Full Stack, projetos e formas de contato profissional.
-
----
-
-## 🌐 Demonstração
-
-Projeto com interface moderna, animação em canvas, modal de contato e design responsivo.
+Portfólio pessoal desenvolvido para apresentar minhas habilidades como desenvolvedor Full Stack em Python, HTML,CSS,JavaScript UX/UI, Inteligência Artificial & Mobile Dart, Flutter e Firebase.
 
 ---
 
-## 🧠 Sobre o projeto
+## Sobre mim
 
-Este portfólio foi criado para:
+Desenvolvedor em formação!
 
-- Exibir minhas habilidades técnicas
-- Apresentar projetos e tecnologias
-- Facilitar contato profissional
-- Demonstrar conhecimentos em front-end moderno
-
----
-
-## 💻 Tecnologias utilizadas
-
-- HTML5
-- CSS3
-- JavaScript (Vanilla)
-- Canvas API (animação de partículas)
-- Design responsivo
-- UI moderna com glassmorphism
+Focado em Full Stack Python & IA.
+Cada vez procurando me atualizar mais e mais, buscando sempre aprender novas tecnologias e me aprofundar nas que já conheço.
+Formado Back-end em Python.(SENAI LAB365).
+Formado Front-end em HTML, CSS e JavaScript, UX-UI.(SENAI LAB365).
+Formado em Inteligência Artificial.(SENAI LAB365).
+Estudando Desenvolvimento de sistemas Mobile com Dart e Flutter e Firebase.(SENAI LAB365).
+Estudante de Análise e Desenvolvimento de Sistemas.(Unicesumar).
+Buscando minha primeira oportunidade na área de tecnologia, onde possa aplicar meus conhecimentos e crescer profissionalmente.
 
 ---
 
-## ✨ Funcionalidades
+## Tecnologias utilizadas para desenvolver meu portfólio
 
-- 🎨 Animação de fundo com partículas conectadas
-- 📱 Layout totalmente responsivo
-- 📩 Modal de contato interativo
-- 🧭 Menu hamburger mobile
-- ⚡ Navegação suave
-- 💬 Links para redes sociais e GitHub
+- HTML5  
+- CSS3  
+- JavaScript  
+- Git & GitHub  
 
 ---
 
-## 📂 Estrutura do projeto
+## Funcionalidades do projeto
 
-porfolio/
+- Background animado com partículas conectadas  
+- Totalmente responsivo  
+- Menu hamburger para mobile  
+- Slider de projetos com swipe e dots  
+- Visualização fullscreen de imagens  
+- Interface moderna e minimalista  
+
+---
+
+## Estrutura do projeto
+
+portfolio/
+│
 ├── index.html
-├── styles.css
+├── style.css
 ├── script.js
-└── README.md
-
-
----
-
-## 📸 Preview
-
-> Adicione aqui um print do seu portfólio depois (opcional)
-
----
-
-## 📬 Contato
-
-- 📧 Email: gabrielsmteyy@gmail.com  
-- 💼 LinkedIn: linkedin.com/in/gabrielotavioschmitt  
-- 💻 GitHub: github.com/GabrielOtavioSchmitt  
+├── .gitignore
+├── README.md
+│
+└── assets/
+    │
+    └── img/
+        ├── PROJETO1
+        ├── PROJETO2
+        ├── PROJETO3
+        ├── PROJETO4
 
 ---
 
-## 🚀 Como rodar o projeto
+## Deploy
 
-1. Clone o repositório:
-```bash
-git clone https://github.com/SEU-USUARIO/SEU-REPO.git
+Projeto publicado com GitHub Pages:
+
+URL:
+
+---
+
+## Contato
+
+- GitHub: https://github.com/GabrielOtavioSchmitt  
+- LinkedIn: https://www.linkedin.com/in/gabrielotavioschmitt/  
+- Instagram: https://www.instagram.com/gebe.py/  
+
+---
+
+## Status do Projeto
+
+✔ Em aperfeiçoamento
+✔ Responsivo
+✔ Pronto para portfólio profissional 
+✔ Otimizado para GitHub Pages
+
+---
