@@ -63,7 +63,7 @@ portfolio/
 
 Projeto publicado com GitHub Pages:
 
-URL:
+URL: https://gabrielotavioschmitt.github.io/meu-portfolio/
 
 ---
 
