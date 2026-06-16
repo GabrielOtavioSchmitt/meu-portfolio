@@ -42,20 +42,17 @@ Buscando minha primeira oportunidade na área de tecnologia, onde possa aplicar 
 ## Estrutura do projeto
 
 portfolio/
-│
-├── index.html
-├── style.css
-├── script.js
-├── .gitignore
-├── README.md
-│
-└── assets/
-    │
-    └── img/
-        ├── PROJETO1
-        ├── PROJETO2
-        ├── PROJETO3
-        ├── PROJETO4
+index.html
+style.css
+script.js
+.gitignore
+README.md
+assets/ 
+img/
+PROJETO1
+PROJETO2
+PROJETO3
+PROJETO4
 
 ---
 
